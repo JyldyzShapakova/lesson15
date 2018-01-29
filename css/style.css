@@ -1,0 +1,46 @@
+body{
+	font-size: 14px;
+	background: #EDEDED;
+	min-width: 320px;
+}
+.wrapper{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+header{
+    background: #474747;
+}
+.header-txt{
+    margin-top: 105px;
+    position: relative;
+
+}
+.header-txt p{
+	width: 58%;
+	color: #c6c6c6;
+	font-size: 30px;
+	margin: 0;
+	padding-top: 25px;
+}
+.price{
+	height: 160px;
+	position: absolute;
+	top: -10px;
+	right: 0;
+	background: #2f549b;
+	width: 40%;
+}
+.price img{
+	
+}
+.price p{
+	width: 30%;
+	color: #fff;
+	display: inline-block;
+	font-size: 85px;
+}
+.price small{
+	width: 30%;
+	display: inline-block;
+	color: #c6c6c6;
+}
