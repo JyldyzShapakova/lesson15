@@ -66,13 +66,14 @@ header{
 .item{
 	margin-top: 50px;
 	display: inline-block;
-	width: 23%;
+	width: 22%;
 	height: 400px;
 	background: #fff;
-	margin-right: 2%;
+	margin-right: 3%;
 	text-align: center;
 	vertical-align: top;
 	position: relative;
+	border: 1px solid #dfdfdf;
 
 }
 .item:last-child{
@@ -81,7 +82,7 @@ header{
 }
 .item:hover{
 	background: #2f549b;
-
+	border: 1px solid #35476a;
 }
 .item:hover h1{
 	color: #fff;
@@ -95,6 +96,7 @@ header{
 .item:hover p{
 	color: #7c9cdb;
 }
+
 .item img{
 	position: absolute;
 	top: 5%;
@@ -103,38 +105,38 @@ header{
 .item h1{
 	color: #2f549b;
 	padding-right: 30px;
-	padding-left: 30px;
-	position: absolute;
-	top: 25%;
-
+	padding-left: 30px;	
+	padding-top: 50%;
 }
 .item h2{
 	font-size: 12px;
 	color: #2f549b;
-	padding-right: 30px;
-	padding-left: 30px;
-	position: absolute;
-	top: 40%;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0;
+	position: relative;
 }
 .item h2::after{
-	background: url(../img/after1.jpg);
+	content: '';
+	height: 1px;
+	width: 90px;
+	position: absolute;
+	background: #ccc;
+	bottom: -17px;
+	left: 50%;
+	margin-left: -45px;
 }
 .item p{
-	position: absolute;
 	color: #5e5e5e;
 	padding-right: 30px;
 	padding-left: 30px;
-	position: absolute;
-	top: 50%;
-	
+	padding-top: 10%;
 }
 .item a{
 	color: #c6c6c6;
 	padding-right: 30px;
 	padding-left: 30px;
-	position: absolute;
-	top: 80%;
-	left: 20%;
+    padding-bottom: 0%;
 
 }
 footer{
@@ -194,20 +196,84 @@ footer .item-footer{
 	height: 110px;
     padding-top: 14px;
     text-align: center;
-    vertical-align: top;
+    position: relative;
     border-radius: 5px;
     margin-top: 40px;
     margin-left: 20px;
-
 }
 
 footer .item-footer h3{
 	color: #5e5e5e;
 	font-size: 12px;
-
+    vertical-align: bottom;
+    padding-top: 50px;
 }
 footer .item-footer:hover{
 	background: #2f549b;
 	border-radius: 3px;
 	
+}
+footer .item-footer:hover h3{
+	color: #fff;
+}
+.item1{
+	width: 50px;
+	height: 49px;
+	position: absolute;
+	left: 45px;
+    background: url(../img/sprite1.png)  no-repeat;
+}
+footer .item-footer:hover .item1{
+    background: url(../img/sprite1.png) 0px -49px no-repeat;
+}
+.item2{
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	left: 45px;
+    background: url(../img/sprite2.png) no-repeat;
+}
+footer .item-footer:hover .item2{
+    background: url(../img/sprite2.png) 0px -46px no-repeat;
+}
+.item3{
+	width: 52px;
+	height: 41px;
+	position: absolute;
+	left: 45px;
+    background: url(../img/sprite3.png) no-repeat;
+}
+footer .item-footer:hover .item3{
+    background: url(../img/sprite3.png) 0px -41px no-repeat;
+}
+.item4{
+	width: 49px;
+	height: 37px;
+	position: absolute;
+	left: 45px;
+    background: url(../img/sprite4.png) no-repeat;
+}
+footer .item-footer:hover .item4{
+    background: url(../img/sprite4.png) 0px -37px no-repeat;
+}
+.item5{
+	width: 48px;
+	height: 41px;
+	position: absolute;
+	left: 45px;
+    background: url(../img/sprite5.png) no-repeat;
+}
+footer .item-footer:hover .item5{
+    background: url(../img/sprite5.png) 0px -41px no-repeat;
+}
+.item6{
+	width: 42px;
+	height: 40px;
+	position: absolute;
+	left: 45px;
+    background: url(../img/sprite6.png) no-repeat;
+}
+
+footer .item-footer:hover .item6{
+    background: url(../img/sprite6.png) 0px -40px no-repeat;
 }
